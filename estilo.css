@@ -127,7 +127,7 @@ header >
     }
     main img{
         max-width: 600px;
-        min-width: 200;
+        min-width: 100;
         display: block;
         margin: auto;
     }
@@ -137,9 +137,19 @@ header >
         display: block;
         margin: auto;
         padding-bottom: 30px;
+      
 
     }
+        section {
+          max-width: 10px;
+          min-width: 50px;
+          padding:5px ;
+          margin: 0px 10px 10px 0px;
+        }
        
+        
+
+  
      article > h1 {
         font-family: var(--fonte-destaque);
         color: var(--cor9);
