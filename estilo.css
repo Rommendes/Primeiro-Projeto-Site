@@ -4,10 +4,9 @@
 @font-face {
     font-family: 'mimeografo';
     src: url('marons/Marons-Regular.otf') format('opentype');
-    font-weight: normal; 
-}
+    font-weight: normal; }
 
-/* USANDO CORES E FONTE DESTAQUE RETRO, POIS A TEMÁTICA É RETRO, O QUE NÃO DEIXA DE SER MODERNO */
+/* USEI CORES E FONTESE DESTAQUE RETRÔ, POIS A TEMÁTICA É RETRO, O QUE NÃO DEIXA DE SER MODERNO */
 :root {
     --cor0: #3045BF;
     --cor1: #5979D9;
@@ -108,7 +107,7 @@ header >
         min-width: 300px;
         max-width: 1000px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: -20px;
         padding: 20px;
         background-color: #d9cca749;
         box-shadow: 0px 5px 50px 5px rgba(27, 27, 27, 0.062) ;
@@ -130,6 +129,7 @@ header >
         min-width: 100;
         display: block;
         margin: auto;
+        box-shadow: -7px 8px 39px 8px rgba(0, 0, 0, 0.253);
     }
     main > picture {
         max-width: 600px;
@@ -137,19 +137,13 @@ header >
         display: block;
         margin: auto;
         padding-bottom: 30px;
-      
-
     }
         section {
           max-width: 10px;
           min-width: 50px;
           padding:5px ;
-          margin: 0px 10px 10px 0px;
-        }
+          margin: 0px 10px 10px 0px;}
        
-        
-
-  
      article > h1 {
         font-family: var(--fonte-destaque);
         color: var(--cor9);
@@ -217,7 +211,7 @@ header >
         padding: 5px;
         border-radius: 10px;
         border-top: 10px;
-        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.253);
+        box-shadow: 8px 8px 27px 8px rgba(0, 0, 0, 0.253);
         margin: 0px 20px 20px 20px;
         
       
@@ -284,4 +278,10 @@ fieldset
 #formulario textarea {
   left: 20px;
   width: 325px;
+}
+footer {
+  background-color: #f29f0584;;
+  padding: 20px;
+ margin-top: 20px;
+ padding-top: 36px;
 }
