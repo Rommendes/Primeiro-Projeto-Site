@@ -54,7 +54,7 @@ header {
 header > h1 {
     color: var(--cor10);
     font-family: var(--fonte-mimeografo);
-    font-size: 8em;
+    font-size: 3em;
     font-weight: normal;
     margin: 20px;
     margin-bottom: auto;
