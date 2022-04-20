@@ -43,11 +43,13 @@ body {
   Posso colocar class esterno para o simbolo do link aparecer. E POSSO ESCOLHER OUTRO CÓDIGO SE PREFERIR*/
 
 header {
+    background-size: auto;
     background-color: var(--cor7);
     min-height: 150px;
     text-align: center;
     padding: 5px;
     padding: 5px;
+
 }
 header > h1 {
     color: var(--cor10);
