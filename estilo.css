@@ -98,8 +98,8 @@ header >
     }
     #menu ul li a{
     text-decoration: none;
-    font-family: var(--fonte-destaque);
-    font-size:15px;
+    font-family: var(--fonte-padrão);
+    font: size 10px;
     color: var(--cor7);
     font-weight: bold;
     }
@@ -222,7 +222,7 @@ header >
     #area
 {
   position:relative;
-  left:32%;
+  left:0%;
   top:40%;
   width:320px;
   height:270px;
