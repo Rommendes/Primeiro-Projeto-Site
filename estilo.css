@@ -54,7 +54,7 @@ header {
 header > h1 {
     color: var(--cor10);
     font-family: var(--fonte-mimeografo);
-    font-size: 3em;
+    font-size: 4em;
     font-weight: normal;
     margin: 20px;
     margin-bottom: auto;
@@ -99,7 +99,7 @@ header >
     #menu ul li a{
     text-decoration: none;
     font-family: var(--fonte-padrão);
-    font: size 10px;
+   font-size: 0.8em;
     color: var(--cor7);
     font-weight: bold;
     }
