@@ -47,13 +47,21 @@ header {
     background-color: var(--cor7);
     min-height: 150px;
     text-align: center;
+
     padding: 40px;
-  
+
+    padding: 5px;
+    padding: 5px;
+
 }
 header > h1 {
     color: var(--cor10);
     font-family: var(--fonte-mimeografo);
+
     font-size: 3em;
+
+    font-size: 4em;
+
     font-weight: normal;
     margin: 20px;
     margin-bottom: auto;
@@ -97,8 +105,8 @@ header >
     }
     #menu ul li a{
     text-decoration: none;
-    font-family: var(--fonte-destaque);
-    font-size:15px;
+    font-family: var(--fonte-padrão);
+   font-size: 0.8em;
     color: var(--cor7);
     font-weight: bold;
     }
@@ -221,7 +229,7 @@ header >
     #area
 {
   position:relative;
-  left:32%;
+  left:0%;
   top:40%;
   width:320px;
   height:270px;
